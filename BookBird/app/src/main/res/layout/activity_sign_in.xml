@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@drawable/background_silver"
+	tools:context="bookbird.bookbird.Sign_in">
+	
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_marginLeft="8dp"
+		android:layout_marginRight="8dp"
+		android:layout_alignParentBottom="true"
+		android:layout_centerInParent="true"
+		android:padding="40dp"
+		android:gravity="center"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+		
+		<com.rengwuxian.materialedittext.MaterialEditText
+			android:id="@+id/edtPhone"
+			android:hint="Phone Number"
+			android:textColorHint="@color/white"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:textColor="@color/white"
+			android:textSize="24sp"
+			android:inputType="phone"
+			app:met_baseColor="@color/white"
+			app:met_floatingLabel="highlight"
+			app:met_maxCharacters="11"
+			app:met_primaryColor="@color/white"
+			app:met_singleLineEllipsis="true"/>
+		
+		<com.rengwuxian.materialedittext.MaterialEditText
+			android:id="@+id/edtPassword"
+			android:hint="Password"
+			android:textColorHint="@color/white"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:textColor="@color/white"
+			android:textSize="24sp"
+			android:inputType="textPassword"
+			app:met_baseColor="@color/white"
+			app:met_floatingLabel="highlight"
+			app:met_maxCharacters="11"
+			app:met_primaryColor="@color/white"
+			app:met_singleLineEllipsis="true"/>
+		
+		<Button
+			android:id="@+id/btnSignin"
+			android:layout_width="205dp"
+			android:layout_height="55dp"
+			android:text="Sign in"
+			android:textColor="@color/colorAccent"
+			android:layout_marginRight="8dp"
+			android:layout_marginLeft="8dp"
+			android:background="@drawable/rounded_buttons"
+			android:layout_marginTop="15dp" />
+	</LinearLayout>
+
+</RelativeLayout>
