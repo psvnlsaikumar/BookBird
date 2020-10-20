@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "214440695489",
+    "firebase_url": "https://bookbird-172519.firebaseio.com",
+    "project_id": "bookbird-172519",
+    "storage_bucket": "bookbird-172519.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:214440695489:android:9ecf9209adeabc00",
+        "android_client_info": {
+          "package_name": "bookbird.bookbird"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "214440695489-ttn8d2csni8s9iq0d4p6nss61a1amff5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "bookbird.bookbird",
+            "certificate_hash": "7a991ac40e4b4a36ec72e719c146c5bc1559fcda"
+          }
+        },
+        {
+          "client_id": "214440695489-ft5fgtgkgv05a670u41ju514oh8htb5g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBf5ukae4XjWxxbjKhT_ddltAWCWZGEgKc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "214440695489-ft5fgtgkgv05a670u41ju514oh8htb5g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
